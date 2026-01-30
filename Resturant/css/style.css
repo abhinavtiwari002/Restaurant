@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.container{
+    width: 1250px;
+    margin-left:40px ;
+}
+nav{
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+
+.nav-links a:hover{
+    color: #e63946;
+}
+
+.hero img{
+    width: 100%;
+    height: 500px;
+}
+.hero{
+    position: relative;   
+}
+
+.hero img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero-text h3{
+    font-size: 28px;
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+
+.hero-text h2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.hero-text button{
+    padding: 12px 30px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-text button:hover{
+    background: orangered;
+    color: white;
+}
+.about img{
+    margin-left:30%;
+}
+.about h3,.about-text h3{
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
+}
+.about h2, .about-text h2{
+    text-align: center;
+    padding-top: 25px;
+    font-family: math;
+    font-size: 35px;
+}
+.about p,.about-text p{
+    max-width: 815px;
+    text-align: center;
+    margin-left: 275px;
+    font-family: system-ui;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.about button{
+    margin-left: 635px;
+    width: 115px;
+    height: 40px;
+    border: 2px solid #eb5058;
+    margin-top: 30px;
+    color: #eb5058;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.about button:hover{
+    background-color: #eb5058;
+    color: #fff;
+}
+.about-text h3{
+    margin-top: 100px;
+}
+
+/* ================= Chef Recommend Section ================= */
+
+.chef-recommend {
+  background: #faf7f3;
+  padding: 80px 120px;
+}
+
+.chef-recommend {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+/* Right Image */
+.menu img {
+  width: 300px;              
+  height: 220px;
+  object-fit: cover;
+  transition: all 0.4s ease; 
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menu img:hover {
+  transform: scale(1.1);     
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.menu-img img {
+  width: 420px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.menu-txt h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  font-family: serif;
+}
+
+/* Dish Name + Price */
+.menu-txt h3 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  position: relative;
+}
+
+/* description text */
+.menu-txt p {
+  margin: 6px 0 30px;
+  font-size: 14px;
+  color: #aaa;
+  font-family: Arial, sans-serif;
+}
+.join-us img{
+    width: 80%;
+    margin-left: 130px;
+}
+.join-us h3{
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
+}
+.join-us h2{
+    text-align: center;
+    padding-top: 25px;
+    font-family: math;
+    font-size: 35px;
+}
+.join-us button{
+    margin-left: 635px;
+    width: 115px;
+    height: 40px;
+    border: 2px solid #eb5058;
+    margin-top: 30px;
+    color: #eb5058;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.join-us button:hover{
+    background-color: #eb5058;
+    color: #fff;
+}
+
+/* ================= Contact Section ================= */
+
+.contact-section {
+  padding: 120px 20px;
+  text-align: center;
+}
+
+
+.logo {
+  margin-bottom: 30px;
+}
+.small-text {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.phone {
+  font-size: 48px;
+  color: #f45b5b;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+/* Address */
+.address-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.address {
+  margin-bottom: 30px;
+}
+
+/* Social Icons */
+.social-icons i {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #aaa;
+  color: #fff;
+  line-height: 36px;
+  margin: 0 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-icons i:hover {
+  background: #f45b5b;
+}
+
+/* ================= Footer Bottom ================= */
+
+.footer-bottom {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  font-size: 14px;
+  color: #999;
+}
+
+
+.menu-text h4{
+  text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    margin-top: 100px
+}
+
+.menu-text h2{
+  text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
+}
+.menu-text h3,.menu-text p{
+  text-align: center;
+    margin-top: 30px;
+}
+.menu{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 65px;
+}
+.front-img {
+  position: relative;
+  width: 100%;
+}
+
+/* Image */
+.front-img img {
+  width: 105%;
+  height: 550px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Overlay with inset fade */
+.front-overlay {
+  position: absolute;
+  inset: 0;   
+  background: rgba(0, 0, 0, 0.45); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Gallery Text */
+.front-overlay h1 {
+  color: #fff;
+  font-size: 70px;
+  letter-spacing: 3px;
+  text-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= Responsive for max-width 500px ================= */
+@media (max-width: 500px) {
+
+  /* Container */
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  /* Navbar */
+  .navbar {
+    margin-top: 15px;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  /* Hero */
+  .hero img {
+    height: 300px;
+  }
+
+  .hero-text h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 195px;
+  }
+
+  .hero-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* About Section */
+  .about img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .about p,
+  .about-text p {
+    margin: 15px auto;
+    padding: 0 15px;
+    max-width: 100%;
+  }
+
+  .about button {
+    margin: 20px auto;
+    display: block;
+  }
+
+  /* Chef Recommend */
+  .chef-recommend {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .menu-img img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .menu-txt h2 {
+    font-size: 28px;
+  }
+
+  .menu-txt h3 {
+    font-size: 16px;
+  }
+
+  /* Join Us */
+  .join-us img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .join-us h2 {
+    font-size: 26px;
+  }
+
+  .join-us button {
+    margin: 20px auto;
+    display: block;
+  }
+
+  /* Contact */
+  .phone {
+    font-size: 30px;
+  }
+
+  /* Footer */
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
